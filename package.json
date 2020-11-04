@@ -1,0 +1,60 @@
+{
+  "name": "akab_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=dev && pm2 start index.js --name Akab",
+    "dev": "export NODE_ENV=dev && pm2 start index.js --name Akab",
+    "test": "export NODE_ENV=test && pm2 start index.js --name Akab",
+    "beta": "export NODE_ENV=beta && pm2 start index.js --name Akab",
+    "live": "export NODE_ENV=live && pm2 start index.js --name Akab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Raman8299@gitlab.com/Apptunix/akab_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Apptunix/akab_node/issues"
+  },
+  "homepage": "https://gitlab.com/Apptunix/akab_node#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.0",
+    "agenda": "^3.1.0",
+    "apn": "^2.2.0",
+    "bcrypt": "3.0.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "cryptr": "^6.0.1",
+    "ejs": "^3.0.1",
+    "event-stream": "^4.0.1",
+    "express": "^4.17.1",
+    "fcm-node": "^1.5.2",
+    "fix": "0.0.6",
+    "handlebars": "^4.7.6",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.8.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.2",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.2",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0",
+    "spotify-web-api-node": "^4.0.0",
+    "twilio": "^3.39.2"
+  }
+}

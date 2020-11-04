@@ -1,0 +1,37 @@
+{
+  "port": 4012,
+  "jwtOption": {
+    "jwtSecretKey": "i222AmapptunixSecretKey",
+    "issuer": "apptunix",
+    "subject": "apptunix",
+    "audience": "apptunix",
+    "algorithm": "SHA256",
+    "expiresIn": "7d"
+  },
+  "mongoDbConnectionUrl":"mongodb://localhost:27017/akab",
+  "twilioCredentials":{
+    "accountSid":"AC",
+    "authToken":"AC",
+    "senderNumber":"+91-99834343"
+},
+"apnUserCertificate":{
+  "apnUserCertificate":"/Certs/basefile.pem'",
+  "gateway":"gateway.push.apple.com"
+},
+"apnDriverCertificate":{
+  "apnUserCertificate":"/Certs/basefile.pem'",
+  "gateway":"gateway.push.apple.com"
+},
+"fcmKeyDriver":{
+  "android":"AAAAefSnscw:APA91bEbZ0Masq0sFy_P4n6tix92ba6HADq_XWRHdVjvEEVKcCG9ZxYKOKvOJxSEiPaM6ocfaGzDSCMmQ7fcbi7_AYjfttTEWgJNEXp-DZTh9am38eGE_6oWkgXQBT31DicflLez_ay4",
+  "ios":"AAAAefSnscw:APA91bEbZ0Masq0sFy_P4n6tix92ba6HADq_XWRHdVjvEEVKcCG9ZxYKOKvOJxSEiPaM6ocfaGzDSCMmQ7fcbi7_AYjfttTEWgJNEXp-DZTh9am38eGE_6oWkgXQBT31DicflLez_ay4"
+},
+"fcmKeyUser":{
+  "android":"AAAAefSnscw:APA91bEbZ0Masq0sFy_P4n6tix92ba6HADq_XWRHdVjvEEVKcCG9ZxYKOKvOJxSEiPaM6ocfaGzDSCMmQ7fcbi7_AYjfttTEWgJNEXp-DZTh9am38eGE_6oWkgXQBT31DicflLez_ay4",
+  "ios":"AAAAefSnscw:APA91bEbZ0Masq0sFy_P4n6tix92ba6HADq_XWRHdVjvEEVKcCG9ZxYKOKvOJxSEiPaM6ocfaGzDSCMmQ7fcbi7_AYjfttTEWgJNEXp-DZTh9am38eGE_6oWkgXQBT31DicflLez_ay4"
+},
+"sendGrid":{
+  "key":"SG.dddd",
+  "email":"abc.com"
+}
+}
